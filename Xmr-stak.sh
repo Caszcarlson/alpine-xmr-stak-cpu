@@ -1,9 +1,9 @@
 #!/bin/sh
 
-pool=$1
-wallet=$2
-password=$3
-workers=$4
+pool=$mine.arqma.com:7777
+wallet=$ar3nvQXs7Tg4jEtkDPWEMzNom43p9imrnCeKfv2v6rRVLJG4mjnxoaLbPRYSs4ie63WKtCiTS5N4mc9TaV8vFGbP24o8ntXgL
+password=$x
+workers=$minefuture02
 
 sed -i -e "s/POOL/${pool}/" -e "s/WALLET/${wallet}/" -e "s/PASSWORD/${password}/" /tmp/config.txt
 
